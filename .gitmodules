@@ -1,0 +1,6 @@
+[submodule "agkozak-zsh-prompt"]
+	path = agkozak-zsh-prompt
+	url = https://github.com/agkozak/agkozak-zsh-prompt.git
+[submodule "zsh-fzf-history-search"]
+	path = zsh-fzf-history-search
+	url = https://github.com/joshskidmore/zsh-fzf-history-search.git
