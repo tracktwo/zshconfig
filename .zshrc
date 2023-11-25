@@ -31,3 +31,11 @@ source $ZDOTDIR/zsh-fzf-history-search/zsh-fzf-history-search.zsh
 fpath+=($ZDOTDIR/agkozak-zsh-prompt)
 autoload promptinit; promptinit
 prompt agkozak-zsh-prompt
+
+if [ -e /snap/bin ]; then
+    export PATH=$PATH:/snap/bin
+fi
+
+if [ -e $HOME/.cargo/env ]; then
+    . $HOME/.cargo/env
+fi
